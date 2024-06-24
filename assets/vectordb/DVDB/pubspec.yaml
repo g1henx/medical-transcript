@@ -1,0 +1,19 @@
+name: dvdb
+description: A dart based on-device vector database. It is compatible to both iOS and Android.
+version: 1.0.7
+repository: https://github.com/FastCodeAI/DVDB
+
+environment:
+  sdk: ^3.2.4
+
+# Add regular dependencies here.
+dependencies:
+  uuid: ^4.3.3
+  path: ^1.8.0
+  http: ^1.1.0
+  ml_linalg: ^13.12.2
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
